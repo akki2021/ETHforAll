@@ -1,0 +1,31 @@
+{
+  "name": "ethforall",
+  "version": "1.0.0",
+  "description": "## _Blockchain based voting system_ - [ ] setup - [ ] landing page - [ ] Login  - [ ] Register - [ ] Welcome Page - [ ] Verification - [ ] Voter registerion form - [ ] Admin Section      - [ ] candidate registration     - [ ] voter verification     - [ ] changes of election phase",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akki2021/ETHforAll.git"
+  },
+  "keywords": [],
+  "author": "Aakash Chaurasiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akki2021/ETHforAll/issues"
+  },
+  "homepage": "https://github.com/akki2021/ETHforAll#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
